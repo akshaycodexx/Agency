@@ -1,0 +1,2130 @@
+# CREATIVION — COMPLETE PROFESSIONAL AGENCY WEBSITE
+
+Build a complete, production-quality, modern full-stack website for a creative digital agency named:
+
+# CREATIVION
+
+Tagline:
+
+**CREATE • INNOVATE • GROW**
+
+Creativion is a modern creative, digital marketing and technology agency that helps businesses build their brand identity, create high-quality content, grow their digital presence, generate leads and build modern digital experiences.
+
+The website must feel like a REAL professional agency website that could be presented to paying clients.
+
+It must NOT look like:
+- A generic template
+- A SaaS dashboard
+- A freelancer portfolio
+- A cheap social media agency website
+- An over-designed colorful website
+- A website full of unnecessary sections
+- A website selling subscriptions
+
+The goal is to make visitors immediately understand:
+
+**Who Creativion is → What Creativion does → Why Creativion is different → What work Creativion does → Who Creativion works with → How Creativion works → How to contact Creativion → How to work/join with Creativion.**
+
+---
+
+# 1. TECHNOLOGY STACK
+
+Use:
+
+## Frontend
+
+- React.js
+- Vite
+- React Router
+- Tailwind CSS
+- Framer Motion
+- Lucide React or React Icons
+- Axios
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- REST APIs
+- dotenv
+- CORS
+- Nodemailer or another reliable SMTP/email implementation
+
+## Architecture
+
+Create a clean separation:
+
+frontend/
+backend/
+
+Use a professional, scalable folder structure.
+
+Do NOT put the entire application into a few giant files.
+
+Create reusable components and reusable sections.
+
+Use environment variables for all sensitive or configurable information.
+
+Never expose:
+- MongoDB URI
+- SMTP credentials
+- Admin credentials
+- API keys
+- Private configuration
+
+to the frontend.
+
+---
+
+# 2. BRAND
+
+Brand name:
+
+**Creativion**
+
+Tagline:
+
+**CREATE • INNOVATE • GROW**
+
+Brand meaning:
+
+Creativion represents the combination of:
+
+Creative Thinking
++
+Innovation
++
+Digital Execution
++
+Business Growth
+
+Use the provided transparent Creativion logo asset.
+
+Do NOT recreate or redesign the logo.
+
+Use the original logo consistently.
+
+Create:
+- Navbar logo
+- Footer logo
+- Favicon-ready branding
+- Mobile logo treatment
+
+---
+
+# 3. DESIGN PHILOSOPHY
+
+The entire website should look:
+
+- Premium
+- Modern
+- Minimal
+- Creative
+- Elegant
+- Professional
+- Trustworthy
+- Human
+- Conversion-focused
+- Agency-quality
+
+Think of a high-end creative agency combined with a modern digital studio.
+
+Do not make it look like a generic WordPress agency template.
+
+Use strong typography and whitespace.
+
+Use visual storytelling.
+
+Use editorial-style layouts where appropriate.
+
+Use asymmetric layouts occasionally for creativity, but maintain usability.
+
+---
+
+# 4. COLOR SYSTEM
+
+Use a very restrained color palette.
+
+Maximum approximately 3-4 primary visual colors.
+
+Primary dark:
+Deep near-black / dark navy
+
+Background:
+Off-white / very light neutral
+
+Main accent:
+Electric blue
+
+Secondary accent:
+Subtle orange/coral inspired by the Creativion logo
+
+The website must NOT use:
+- 10+ colors
+- Rainbow gradients
+- Excessive neon
+- Random colorful cards
+- Every section having a different color
+
+The logo can contain its original colors, but the rest of the website should remain visually controlled.
+
+Use accent colors strategically for:
+- Buttons
+- Hover states
+- Small highlights
+- Icons
+- Important visual details
+
+Maintain professional consistency.
+
+---
+
+# 5. TYPOGRAPHY
+
+Use one professional modern font family across the website.
+
+Use strong typography hierarchy.
+
+Large:
+Hero headlines
+
+Medium:
+Section headings
+
+Small:
+Supporting labels
+
+Body:
+Highly readable text
+
+Use uppercase micro-labels where appropriate.
+
+Do not use multiple unrelated fonts.
+
+Typography should be one of the main design elements.
+
+---
+
+# 6. VISUAL STYLE
+
+Use:
+
+- Large typography
+- Clean grids
+- Generous whitespace
+- Thin borders
+- Professional cards
+- Rounded corners but not excessive
+- Subtle hover effects
+- Smooth page transitions
+- Scroll reveal animations
+- Image reveal animations
+- Text reveal animations
+- Elegant micro-interactions
+- Sticky navbar
+- Smooth scrolling
+
+Avoid:
+
+- Excessive box shadows
+- Excessive glassmorphism
+- Excessive floating cards
+- Excessive 3D
+- Excessive animation
+- Huge unnecessary illustrations
+- Random blobs everywhere
+- Rainbow gradients
+- Overly rounded UI
+- Fake counters
+- Fake statistics
+- Fake awards
+- Fake clients
+- Fake reviews
+
+Every visual element must have a purpose.
+
+---
+
+# 7. IMPORTANT BUSINESS RULE
+
+DO NOT CREATE A SUBSCRIPTION MODEL.
+
+Do NOT create:
+- Monthly subscription cards
+- Pricing tiers
+- SaaS plans
+- Membership plans
+- Free/Premium plans
+
+Creativion is an agency.
+
+Instead of pricing tables use:
+
+**Start a Project**
+**Request a Proposal**
+**Discuss Your Project**
+
+Pricing can be discussed through the contact process.
+
+---
+
+# 8. WEBSITE PAGES
+
+Create these pages:
+
+1. Home
+2. Services
+3. Work / Portfolio
+4. Case Study Detail
+5. About Creativion
+6. Founder
+7. Our Process
+8. Happy Customers / Testimonials
+9. Careers
+10. Contact
+11. FAQ
+12. Privacy Policy
+13. Terms & Conditions
+14. 404
+
+Use React Router.
+
+Create clean routes such as:
+
+/
+/services
+/work
+/work/:slug
+/about
+/founder
+/process
+/testimonials
+/careers
+/contact
+/faq
+/privacy-policy
+/terms
+/*
+
+---
+
+# 9. NAVBAR
+
+Create a premium sticky navbar.
+
+Desktop navigation:
+
+Logo
+
+Home
+Services
+Work
+About
+Process
+Careers
+Contact
+
+Primary CTA:
+
+**Start a Project**
+
+Navbar should become slightly more compact when scrolling.
+
+Use subtle animation.
+
+Do not make the navbar huge.
+
+Mobile navbar:
+
+Logo
+Menu button
+
+Opening the menu should have a smooth animation.
+
+Mobile menu should contain all major links.
+
+---
+
+# 10. HOME PAGE — HERO
+
+Create a visually powerful hero section.
+
+Main headline:
+
+**WE CREATE DIGITAL EXPERIENCES THAT MOVE BRANDS.**
+
+Supporting copy:
+
+**Creativion is a creative and digital growth agency helping ambitious businesses build stronger brands, create engaging content and grow their digital presence.**
+
+Primary CTA:
+
+**Start a Project**
+
+Secondary CTA:
+
+**Explore Our Work**
+
+Create an original visual composition connected to:
+
+- Creativity
+- Social media
+- Branding
+- Digital content
+- Technology
+- Growth
+
+The hero visual should complement the Creativion logo and brand.
+
+Do not make the hero unnecessarily complicated.
+
+Use subtle Framer Motion animations.
+
+---
+
+# 11. HOME — INTRODUCTION
+
+Immediately after hero create a short agency introduction.
+
+Example structure:
+
+**CREATIVE THINKING. DIGITAL EXECUTION.**
+
+Explain:
+
+Creativion combines creative strategy, digital marketing, content production and technology to help businesses build meaningful digital brands.
+
+Use a visually interesting editorial layout.
+
+Include a small link:
+
+**Discover Creativion →**
+
+---
+
+# 12. HOME — WHAT WE DO
+
+Create section:
+
+**WHAT WE DO**
+
+Subheading:
+
+**From the first idea to digital execution, we help brands turn attention into meaningful growth.**
+
+Show major services.
+
+Services:
+
+01 Social Media Management
+02 Content Creation
+03 Reels & Video Production
+04 Graphic Design
+05 Branding & Creative Direction
+06 Meta & Google Ads
+07 SEO & Local SEO
+08 Website Development
+09 Landing Pages
+10 Influencer Marketing
+11 WhatsApp Marketing
+12 AI Creative Solutions
+13 Photography & Product Shoots
+
+Create an elegant interactive service list.
+
+On hover:
+- Service number
+- Icon
+- Short description
+- Arrow
+- Subtle visual movement
+
+Add:
+
+**View All Services →**
+
+---
+
+# 13. HOME — SELECTED SERVICES
+
+Create a visually strong section showing 6-8 key services.
+
+Each service should communicate:
+- What it is
+- Why it matters
+- What Creativion delivers
+
+Use:
+- Large number
+- Title
+- Short description
+- Small visual/icon
+- CTA
+
+Do not create generic stock illustrations.
+
+---
+
+# 14. HOME — SELECTED WORK
+
+Section title:
+
+**SELECTED WORK**
+
+Subheading:
+
+**Ideas are better when they become something people can see, feel and remember.**
+
+Create portfolio grid.
+
+Filters:
+
+All
+Social Media
+Branding
+Web
+Advertising
+Content
+SEO
+
+Each portfolio item:
+
+- Project image
+- Project name
+- Industry
+- Service
+- Short description
+- View Case Study
+
+Create reusable project data.
+
+Use placeholder projects only until real projects are added.
+
+Clearly structure data so it can easily be replaced.
+
+Never claim fake results.
+
+---
+
+# 15. CASE STUDY SYSTEM
+
+Create dynamic case study pages.
+
+Route:
+
+/work/:slug
+
+Each case study must have:
+
+Project Hero
+
+Project Name
+
+Industry
+
+Services
+
+Overview
+
+The Challenge
+
+The Strategy
+
+Creative Direction
+
+Execution
+
+Deliverables
+
+Results
+
+Gallery
+
+Client Feedback
+
+Next Project
+
+Important:
+
+Do NOT invent real statistics.
+
+If results are unavailable, display placeholders such as:
+
+"Results to be added"
+
+or allow the CMS/admin data to contain real results later.
+
+---
+
+# 16. HOME — WHY CREATIVION
+
+Create:
+
+**WHY CREATIVION**
+
+Use four principles:
+
+01 Strategy First
+02 Creativity With Purpose
+03 Technology That Works
+04 Growth That Matters
+
+Explain each in 1-2 concise paragraphs.
+
+Use elegant numbered layout.
+
+---
+
+# 17. HOME — OUR PROCESS
+
+Create:
+
+**HOW WE WORK**
+
+Process:
+
+01 Discover
+02 Research
+03 Strategize
+04 Create
+05 Launch
+06 Optimize
+
+For every step show:
+- What happens
+- What the client provides
+- What Creativion delivers
+
+Use an elegant timeline.
+
+Animate the timeline on scroll.
+
+Do not over-animate.
+
+---
+
+# 18. HOME — FOUNDER INTRODUCTION
+
+Create a premium founder section.
+
+Heading:
+
+**BUILT WITH A SIMPLE BELIEF: GREAT IDEAS DESERVE GREAT EXECUTION.**
+
+Show founder image.
+
+Include:
+
+Founder Name
+Founder Role
+Short biography
+Vision
+Why Creativion was started
+
+Add button:
+
+**Meet the Founder →**
+
+Link to:
+
+/founder
+
+Do not invent personal information.
+
+Create placeholder fields where actual founder details will be inserted.
+
+---
+
+# 19. ABOUT PAGE
+
+Create a complete About Creativion page.
+
+Sections:
+
+## Our Story
+
+Explain:
+- Why Creativion was created
+- What problem it aims to solve
+- What makes the agency different
+
+## How It Started
+
+Create a timeline:
+
+The Idea
+The Beginning
+First Projects
+Growing the Team
+Building the Agency
+
+Use placeholder dates/details where actual information is not provided.
+
+DO NOT invent facts.
+
+## Our Mission
+
+Example:
+
+"To help businesses communicate better, create better and grow confidently in the digital world."
+
+Allow this copy to be easily changed.
+
+## Our Vision
+
+Explain the long-term vision.
+
+## Our Values
+
+Use:
+
+Creativity
+Integrity
+Innovation
+Consistency
+Client Success
+Learning
+
+## Our Approach
+
+Strategy
+Creativity
+Technology
+Execution
+Optimization
+
+## Who We Work With
+
+Restaurants
+Healthcare
+Real Estate
+Education
+Startups
+E-commerce
+Personal Brands
+Local Businesses
+Professional Services
+
+---
+
+# 20. FOUNDER PAGE
+
+Create a dedicated professional Founder page.
+
+Page title:
+
+**THE PERSON BEHIND CREATIVION**
+
+Include:
+
+Founder photograph
+
+Founder name
+
+Founder title
+
+Professional introduction
+
+Education / professional background if provided
+
+Why the founder started Creativion
+
+When Creativion started
+
+What inspired the company
+
+Founder philosophy
+
+Vision for Creativion
+
+What the founder believes about:
+- Creativity
+- Technology
+- Business
+- Branding
+- Client relationships
+
+Create a personal but professional storytelling layout.
+
+Do not make it look like a resume.
+
+Do not invent information.
+
+Use clearly marked placeholders for unknown founder details.
+
+Add:
+
+**Connect with the Founder**
+
+Social links:
+LinkedIn
+Instagram
+Email
+
+Only show links when configured.
+
+---
+
+# 21. HAPPY CUSTOMERS / TESTIMONIALS
+
+Create a dedicated testimonials page and a smaller homepage section.
+
+Heading:
+
+**HAPPY CUSTOMERS**
+
+Subheading:
+
+**Good work creates results. Great relationships create long-term partnerships.**
+
+Testimonials should support:
+
+- Client photo
+- Client name
+- Role
+- Company
+- Industry
+- Review
+- Rating
+
+Use placeholder testimonials until actual customer reviews are available.
+
+Clearly mark demo content during development.
+
+Never present placeholder reviews as genuine.
+
+Add testimonial cards with subtle motion.
+
+Avoid excessive carousel behavior.
+
+Allow both grid and carousel presentation depending on screen size.
+
+---
+
+# 22. TRUST SECTION
+
+Create a trust section without fake statistics.
+
+Possible categories:
+
+Creative Expertise
+Digital Strategy
+Technology
+Content Production
+Business Understanding
+Long-Term Partnerships
+
+Do NOT create fake numbers such as:
+
+"500+ clients"
+"10M+ views"
+"99% satisfaction"
+
+unless real data is provided.
+
+---
+
+# 23. INDUSTRIES PAGE/SECTION
+
+Create an industries section.
+
+Industries:
+
+Restaurants & Cafes
+Healthcare
+Real Estate
+Education
+E-commerce
+Startups
+Personal Brands
+Hotels
+Local Businesses
+Professional Services
+
+Each industry should explain how Creativion can help.
+
+---
+
+# 24. SERVICES PAGE
+
+Create a detailed Services page.
+
+Services:
+
+1. Social Media Management
+2. Content Creation
+3. Reels & Video Production
+4. Graphic Design
+5. Branding & Creative Direction
+6. Meta Ads
+7. Google Ads
+8. SEO
+9. Local SEO
+10. Google Business Profile
+11. Influencer Marketing
+12. Website Development
+13. Landing Pages
+14. WhatsApp Marketing
+15. AI Creative Solutions
+16. Photography & Product Shoots
+
+For every service provide:
+
+What it is
+
+Why it matters
+
+What Creativion does
+
+Deliverables
+
+Ideal client
+
+CTA:
+
+**Discuss This Service**
+
+Do NOT show subscription pricing.
+
+---
+
+# 25. CAREERS PAGE
+
+Create a professional Careers page.
+
+Page title:
+
+**BUILD THE FUTURE WITH CREATIVION**
+
+Intro:
+
+"We are always interested in meeting creative thinkers, builders, strategists and people who want to make meaningful work."
+
+Sections:
+
+## Why Work With Us
+
+- Creative freedom
+- Learning
+- Real projects
+- Collaborative environment
+- Growth opportunities
+- Modern technology
+
+Do not make fake claims about company culture.
+
+## Open Positions
+
+Create dynamic job cards.
+
+Each job:
+
+Job title
+Department
+Location
+Work type
+Experience
+Short description
+Responsibilities
+Requirements
+Nice to have
+Apply button
+
+Example roles:
+
+Social Media Manager
+Graphic Designer
+Video Editor
+Content Creator
+Performance Marketing Executive
+SEO Executive
+Full Stack Developer
+Business Development Executive
+Internships
+
+These should be easily editable through data.
+
+If there are no actual openings, show:
+
+**No current openings**
+
+and:
+
+**Send us your resume anyway**
+
+## Career Application
+
+Create form:
+
+Name
+Email
+Phone
+Position
+Experience
+Portfolio URL
+LinkedIn URL
+Resume Upload
+Cover Message
+
+Backend should process the application.
+
+Store application metadata in MongoDB.
+
+Resume files should be handled securely.
+
+Do not expose uploaded files publicly without authorization.
+
+---
+
+# 26. CONTACT PAGE
+
+This is one of the most important pages.
+
+Heading:
+
+**LET'S BUILD SOMETHING PEOPLE REMEMBER.**
+
+Supporting text:
+
+"Tell us what you're building, what you're trying to solve, or where you want to go. We'll take it from there."
+
+Create a professional contact form.
+
+Fields:
+
+Full Name
+Company Name
+Email
+Phone
+Service
+Budget Range
+Project Description
+Preferred Contact Method
+
+Service options:
+
+Social Media Management
+Content Creation
+Video Production
+Branding
+Meta Ads
+Google Ads
+SEO
+Website Development
+Landing Page
+Influencer Marketing
+Other
+
+Budget is optional.
+
+Project Description should be a large textarea.
+
+Preferred contact:
+
+Email
+Phone
+WhatsApp
+
+Do NOT add a floating WhatsApp button.
+
+Do NOT add annoying popups.
+
+---
+
+# 27. DIRECT EMAIL FUNCTIONALITY
+
+When the visitor submits the contact form:
+
+Frontend sends request to backend.
+
+Backend validates the form.
+
+Backend stores inquiry in MongoDB.
+
+Backend sends an email notification to the Creativion business email.
+
+Use Nodemailer/SMTP or a reliable transactional email provider.
+
+Use environment variables:
+
+SMTP_HOST
+SMTP_PORT
+SMTP_USER
+SMTP_PASSWORD
+CONTACT_EMAIL
+
+Do NOT expose SMTP credentials to frontend.
+
+Email should contain:
+
+New Project Inquiry
+
+Name
+Company
+Email
+Phone
+Service
+Budget
+Project Description
+Preferred Contact Method
+Submission Time
+
+Also optionally send a professional acknowledgement email to the customer.
+
+Customer acknowledgement:
+
+"Thank you for reaching out to Creativion. We have received your project inquiry and our team will review it shortly."
+
+Do not promise unrealistic response times.
+
+---
+
+# 28. CONTACT INFORMATION
+
+Show:
+
+Business Email
+Phone
+Office Address
+Business Hours
+Social Media
+
+All information must be configurable.
+
+Use environment variables or centralized configuration.
+
+Do NOT invent real contact information.
+
+Use placeholders during development.
+
+---
+
+# 29. GOOGLE MAP
+
+Add Google Maps to Contact page.
+
+Use configurable map embed URL.
+
+Environment/config variable:
+
+MAP_EMBED_URL
+
+Show:
+
+**Find Us**
+
+Map should be responsive.
+
+Do not hardcode a fake location.
+
+---
+
+# 30. CONTACT PAGE — ALTERNATIVE CONTACT METHODS
+
+Create clean cards:
+
+Email Us
+Call Us
+Visit Us
+
+Do not use floating contact buttons.
+
+Do not cover website content with sticky WhatsApp widgets.
+
+All contact actions should be integrated naturally into the page.
+
+---
+
+# 31. FAQ PAGE
+
+Create professional FAQ.
+
+Questions:
+
+What services does Creativion provide?
+
+How does the project process work?
+
+How do I start a project?
+
+Do you work with small businesses?
+
+Do you provide social media management?
+
+Do you create reels and videos?
+
+Do you run Meta and Google Ads?
+
+Do you build websites?
+
+Do you provide SEO?
+
+Do you provide branding?
+
+How long does a project usually take?
+
+How do I receive a proposal?
+
+How can I contact Creativion?
+
+Use accordion interaction.
+
+---
+
+# 32. BACKEND — INQUIRY MODEL
+
+Create Mongoose model:
+
+Inquiry
+
+Fields:
+
+name
+company
+email
+phone
+service
+budget
+message
+preferredContact
+status
+createdAt
+updatedAt
+
+Default status:
+
+New
+
+Statuses:
+
+New
+Contacted
+In Discussion
+Converted
+Closed
+
+API:
+
+POST /api/inquiries
+GET /api/inquiries
+GET /api/inquiries/:id
+PATCH /api/inquiries/:id
+DELETE /api/inquiries/:id
+
+Validate all input.
+
+Return proper HTTP status codes.
+
+Handle errors gracefully.
+
+---
+
+# 33. BACKEND — CAREER APPLICATIONS
+
+Create:
+
+CareerApplication
+
+Fields:
+
+name
+email
+phone
+position
+experience
+portfolio
+linkedin
+resume
+coverMessage
+status
+createdAt
+
+Statuses:
+
+New
+Reviewed
+Shortlisted
+Interview
+Rejected
+Hired
+
+API structure:
+
+POST /api/careers/apply
+GET /api/careers/applications
+GET /api/careers/applications/:id
+PATCH /api/careers/applications/:id
+
+Validate uploaded resume.
+
+Limit file types and size.
+
+Do not expose private applications publicly.
+
+---
+
+# 34. ADMIN DASHBOARD
+
+Create a simple protected admin area.
+
+Do not build an unnecessary complex CRM.
+
+Admin dashboard:
+
+Dashboard
+Inquiries
+Career Applications
+Projects
+Testimonials
+
+Dashboard summary:
+
+New Inquiries
+In Discussion
+Converted
+Career Applications
+Published Projects
+Testimonials
+
+Do not show fake statistics.
+
+Use actual database values.
+
+---
+
+# 35. ADMIN — INQUIRIES
+
+Table:
+
+Name
+Company
+Service
+Date
+Status
+Actions
+
+Actions:
+
+View
+Change Status
+Delete
+
+Inquiry details:
+
+All submitted fields.
+
+Admin can change:
+
+New
+Contacted
+In Discussion
+Converted
+Closed
+
+---
+
+# 36. ADMIN — CAREERS
+
+Show:
+
+Applicant
+Position
+Experience
+Date
+Status
+
+Actions:
+
+View
+Download/securely access resume
+Change status
+Delete
+
+Statuses:
+
+New
+Reviewed
+Shortlisted
+Interview
+Rejected
+Hired
+
+---
+
+# 37. ADMIN — PROJECTS
+
+Create simple project management.
+
+Admin should be able to manage:
+
+Project title
+Slug
+Category
+Industry
+Description
+Cover image
+Gallery
+Services
+Challenge
+Strategy
+Execution
+Deliverables
+Results
+Client feedback
+Published status
+
+This allows real portfolio content to be added later.
+
+Do not build a huge CMS.
+
+---
+
+# 38. ADMIN — TESTIMONIALS
+
+Fields:
+
+Client name
+Role
+Company
+Photo
+Industry
+Review
+Rating
+Published
+
+Only published testimonials appear publicly.
+
+---
+
+# 39. HOME — FINAL CTA
+
+Near bottom of homepage create a large editorial CTA:
+
+**LET'S BUILD SOMETHING PEOPLE REMEMBER.**
+
+Supporting text:
+
+"Have an idea, a business, or a brand that needs to move forward? Let's talk."
+
+Buttons:
+
+**Start a Project**
+
+**Explore Our Work**
+
+Make this section visually memorable.
+
+---
+
+# 40. FOOTER
+
+Footer must contain:
+
+Creativion logo
+
+Short agency description.
+
+Navigation:
+
+Home
+Services
+Work
+About
+Process
+Careers
+Contact
+
+Services:
+
+Social Media
+Branding
+Content
+Ads
+SEO
+Web Development
+
+Contact:
+
+Email
+Phone
+Location
+
+Social:
+
+Instagram
+LinkedIn
+Facebook
+YouTube
+
+Only show configured social links.
+
+Bottom:
+
+CREATE • INNOVATE • GROW
+
+Privacy Policy
+Terms & Conditions
+
+Copyright:
+
+© [current year] Creativion. All rights reserved.
+
+---
+
+# 41. NO FLOATING WHATSAPP BUTTON
+
+IMPORTANT:
+
+DO NOT create a floating WhatsApp button.
+
+DO NOT create floating call buttons.
+
+DO NOT create persistent chat widgets.
+
+WhatsApp can be included as a normal contact option inside:
+
+Contact page
+Contact cards
+Footer
+Contact form preferred contact method
+
+Keep the website clean.
+
+---
+
+# 42. RESPONSIVE DESIGN
+
+Website must be excellent on:
+
+Desktop
+Laptop
+Tablet
+Mobile
+
+Do not simply shrink desktop design.
+
+Mobile should have its own thoughtful layout.
+
+Check:
+
+Navbar
+Hero
+Portfolio
+Services
+Forms
+Testimonials
+Founder section
+Timeline
+Footer
+Maps
+
+No horizontal overflow.
+
+---
+
+# 43. ANIMATION SYSTEM
+
+Use Framer Motion carefully.
+
+Animations:
+
+- Fade in
+- Slide up
+- Image reveal
+- Text reveal
+- Hover movement
+- Page transition
+- Section reveal
+- Portfolio hover
+- Service hover
+
+Animations should feel:
+
+Smooth
+Elegant
+Fast
+Premium
+
+Do NOT animate everything.
+
+Respect:
+
+prefers-reduced-motion
+
+---
+
+# 44. SEO
+
+Implement:
+
+Unique title for every page.
+
+Unique meta description.
+
+Open Graph metadata.
+
+Semantic HTML.
+
+Correct H1/H2/H3 hierarchy.
+
+Alt text.
+
+Canonical-ready structure.
+
+Sitemap-ready structure.
+
+Robots.txt-ready structure.
+
+Clean URLs.
+
+SEO-friendly portfolio slugs.
+
+Add LocalBusiness/Organization structured data when real business information is available.
+
+Do not add fake addresses or fake ratings.
+
+---
+
+# 45. PERFORMANCE
+
+Optimize:
+
+Images
+Lazy loading
+Component rendering
+Animations
+API calls
+
+Avoid unnecessary libraries.
+
+Use reusable components.
+
+Avoid huge JavaScript bundles.
+
+Do not load heavy animations unnecessarily.
+
+Use optimized image dimensions.
+
+---
+
+# 46. ACCESSIBILITY
+
+Implement:
+
+Keyboard navigation
+Visible focus states
+Accessible buttons
+Accessible forms
+Labels for inputs
+ARIA where required
+Readable contrast
+Alt text
+Reduced motion support
+
+Do not rely only on color to communicate information.
+
+---
+
+# 47. ERROR STATES
+
+Every API-driven section must support:
+
+Loading
+Success
+Error
+Empty state
+
+Contact form:
+
+Loading:
+"Sending..."
+
+Success:
+"Thank you. Your inquiry has been received."
+
+Error:
+"Something went wrong. Please try again."
+
+Do not expose technical errors to visitors.
+
+---
+
+# 48. 404 PAGE
+
+Create a creative but professional 404 page.
+
+Headline:
+
+"THIS PAGE WENT OFF SCRIPT."
+
+Supporting text:
+
+"The page you're looking for doesn't seem to exist."
+
+Buttons:
+
+Back Home
+Explore Our Work
+
+Keep it on-brand.
+
+---
+
+# 49. PRIVACY POLICY
+
+Create a professional placeholder Privacy Policy page.
+
+Explain:
+
+Contact form information
+Career application information
+Cookies if used
+Analytics if used
+Data storage
+Third-party services
+User rights
+Contact information
+
+Do not make unsupported legal claims.
+
+Use configurable business information.
+
+---
+
+# 50. TERMS & CONDITIONS
+
+Create a professional placeholder Terms & Conditions page.
+
+Include:
+
+Website usage
+Services
+Intellectual property
+Portfolio usage
+Payments/project agreements
+Third-party services
+Limitation of liability
+Contact
+
+Make it clear that actual legal documents should be reviewed professionally before production.
+
+---
+
+# 51. CONTENT RULES
+
+Very important:
+
+Do NOT invent:
+- Client names
+- Reviews
+- Awards
+- Revenue
+- Followers
+- Project results
+- Team members
+- Company history
+- Years of experience
+- Locations
+- Certifications
+
+When real information is unavailable, use:
+
+[ADD REAL CLIENT NAME]
+
+[ADD REAL TESTIMONIAL]
+
+[ADD FOUNDER DETAILS]
+
+[ADD OFFICE ADDRESS]
+
+[ADD REAL RESULT]
+
+This is important because this website will represent a real agency.
+
+---
+
+# 52. CONTENT TONE
+
+Writing style:
+
+Confident
+Professional
+Creative
+Clear
+Human
+
+Avoid corporate jargon.
+
+Avoid generic phrases like:
+
+"We provide innovative solutions to empower businesses in the ever-evolving digital landscape."
+
+Instead write naturally.
+
+Use short, powerful sentences.
+
+The website should sound like a confident creative agency.
+
+---
+
+# 53. COMPONENT ARCHITECTURE
+
+Create reusable components such as:
+
+Navbar
+MobileMenu
+Footer
+Button
+SectionHeading
+ServiceCard
+ServiceList
+ProjectCard
+ProjectFilter
+TestimonialCard
+FounderSection
+ProcessTimeline
+IndustryCard
+CTASection
+ContactForm
+ContactCard
+FAQAccordion
+MapSection
+PageHeader
+LoadingState
+EmptyState
+ErrorState
+
+Do not duplicate UI unnecessarily.
+
+---
+
+# 54. DATA ARCHITECTURE
+
+Keep editable content separate from components where practical.
+
+Create structured data for:
+
+services
+projects
+industries
+testimonials
+team
+jobs
+FAQs
+socialLinks
+contactInformation
+
+This makes the agency website easy to maintain.
+
+---
+
+# 55. ENVIRONMENT VARIABLES
+
+Create proper .env.example files.
+
+Frontend example:
+
+VITE_API_URL=
+VITE_MAP_EMBED_URL=
+
+Backend:
+
+PORT=
+MONGODB_URI=
+
+SMTP_HOST=
+SMTP_PORT=
+SMTP_USER=
+SMTP_PASSWORD=
+
+CONTACT_EMAIL=
+
+ADMIN_EMAIL=
+ADMIN_PASSWORD=
+
+SOCIAL_INSTAGRAM=
+SOCIAL_LINKEDIN=
+SOCIAL_FACEBOOK=
+SOCIAL_YOUTUBE=
+
+PHONE=
+WHATSAPP=
+ADDRESS=
+
+Do not commit actual secrets.
+
+Add .gitignore.
+
+---
+
+# 56. SECURITY
+
+Implement:
+
+Input validation
+CORS configuration
+Rate limiting for public inquiry APIs where appropriate
+Secure file upload validation
+Environment variables
+MongoDB security
+No exposed credentials
+No sensitive information in frontend
+
+Do not trust client-side validation alone.
+
+Validate again on backend.
+
+---
+
+# 57. FINAL USER EXPERIENCE
+
+The website should feel like this:
+
+Visitor arrives.
+
+They immediately understand:
+
+**CREATIVION**
+
+Creative + Digital + Growth.
+
+They see:
+
+What we do.
+
+They see:
+
+Our work.
+
+They understand:
+
+Our process.
+
+They discover:
+
+Who founded the company and why.
+
+They see:
+
+Customer feedback.
+
+They understand:
+
+Who Creativion works with.
+
+They can explore:
+
+Services.
+
+They can apply:
+
+Careers.
+
+And when they are ready:
+
+They click:
+
+**START A PROJECT**
+
+They fill the form.
+
+The inquiry goes to the backend.
+
+The inquiry is stored in MongoDB.
+
+The business receives an email.
+
+The customer receives a professional confirmation email.
+
+This should feel like a real agency workflow.
+
+---
+
+# 58. FINAL DESIGN REQUIREMENT
+
+The final website must NOT feel crowded.
+
+Every section must have breathing space.
+
+Use visual rhythm.
+
+Use whitespace.
+
+Use strong typography.
+
+Use subtle borders.
+
+Use restrained colors.
+
+Use meaningful animations.
+
+Use premium image treatment.
+
+Use creative layouts.
+
+But always prioritize:
+
+Clarity
+Trust
+Professionalism
+Conversion
+Performance
+
+over visual gimmicks.
+
+---
+
+# 59. MOST IMPORTANT DESIGN STATEMENT
+
+The website should communicate this feeling:
+
+**"Creativion is young, creative, modern and innovative — but serious enough to handle real businesses."**
+
+It should look premium enough for:
+
+Startups
+Restaurants
+Real Estate Companies
+Healthcare Businesses
+Educational Institutions
+E-commerce Brands
+Personal Brands
+Local Businesses
+Established Companies
+
+---
+
+# 60. DEVELOPMENT APPROACH
+
+Do not generate a low-quality monolithic implementation.
+
+Build systematically.
+
+First establish:
+
+1. Project architecture
+2. Design system
+3. Global components
+4. Navbar/footer
+5. Homepage
+6. Services
+7. Work/portfolio
+8. About/founder
+9. Process
+10. Testimonials
+11. Careers
+12. Contact
+13. Backend APIs
+14. Email functionality
+15. MongoDB
+16. Admin
+17. SEO
+18. Accessibility
+19. Performance
+20. Final QA
+
+Do not unnecessarily rewrite working code.
+
+Before creating a new component, check whether an existing reusable component can be used.
+
+---
+
+# 61. FINAL QA
+
+Before considering the project complete, test:
+
+- Homepage
+- Navbar
+- Mobile menu
+- All routes
+- Services
+- Portfolio filters
+- Case studies
+- About
+- Founder
+- Process
+- Testimonials
+- Careers
+- Career application
+- Contact form
+- Email delivery
+- MongoDB storage
+- Admin login
+- Admin inquiries
+- Admin applications
+- Admin projects
+- Admin testimonials
+- FAQ
+- Privacy
+- Terms
+- 404
+- Footer
+- Google Maps
+- Social links
+- Mobile layout
+- Tablet layout
+- Desktop layout
+
+Check browser console.
+
+There must be no unnecessary console errors.
+
+Check API errors.
+
+Check form validation.
+
+Check loading states.
+
+Check empty states.
+
+Check responsive overflow.
+
+Check image loading.
+
+Check accessibility.
+
+Check SEO metadata.
+
+Check that no secrets are exposed.
+
+Check that no floating WhatsApp button exists.
+
+Check that no subscription/pricing model exists.
+
+Check that no fake company claims are presented as real.
+
+---
+
+# 62. FINAL RESULT
+
+The final product should be a complete professional website for:
+
+# CREATIVION
+
+**CREATE • INNOVATE • GROW**
+
+It should look like a serious modern creative agency with:
+
+Creative Design
++
+Digital Marketing
++
+Content
++
+Branding
++
+Technology
++
+Business Growth
+
+The final website should be polished enough to show directly to potential clients.
+
+Do not stop at a visual prototype.
+
+Implement the actual frontend, backend, database integration, inquiry workflow, email workflow and career application workflow.
+
+Keep all real company-specific information configurable so it can be replaced later.
+
+Prioritize quality, professionalism, maintainability, responsiveness and real-world usability.
